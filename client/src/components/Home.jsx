@@ -184,7 +184,7 @@ const checkLocation = () => {
                 </div>
             </div>
             <div className="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
-                <img src="assets/img/hero-img.png" className="img-fluid" alt="" data-aos="zoom-out" data-aos-delay={300} />
+                <img src="public/img/hero-img.png" className="img-fluid" alt="" data-aos="zoom-out" data-aos-delay={300} />
             </div>
         </div>
     </div>
@@ -200,7 +200,7 @@ const checkLocation = () => {
                 </p>
             </div>
             <div className="row gy-4">
-                <div className="col-lg-7 position-relative about-img" style={{ backgroundImage: "url(public/assets/img/about.jpg)" }} data-aos="fade-up" data-aos-delay={150}>
+                <div className="col-lg-7 position-relative about-img" style={{ backgroundImage: "url(public/img/about.jpg)" }} data-aos="fade-up" data-aos-delay={150}>
                     <div className="call-us position-absolute">
                         <h4>Резервирайте маса</h4>
                         <p>+1 5589 55488 55</p>
@@ -224,7 +224,7 @@ const checkLocation = () => {
                         Заповядайте при нас и открийте магията на истинската гастрономия. Резервирайте своята маса днес и позволете на нашите изискани ястия да ви очароват!
                         </p>
                         <div className="position-relative mt-4">
-                            <img src="public/assets/img/about-2.jpg" className="img-fluid" alt="" />
+                            <img src="public/img/about-2.jpg" className="img-fluid" alt="" />
                             <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" className="glightbox play-btn" />
                         </div>
                     </div>
@@ -351,7 +351,7 @@ const checkLocation = () => {
             <div className="row gy-5">
             {items.map((item) => (
               <div className="col-lg-4 menu-item"  key={item.id}>
-                <a href="public/assets/img/menu/menu-item-1.png" className="glightbox">
+                <a href="public/img/menu/menu-item-1.png" className="glightbox">
                   <img
                     src={item.imageUrl}
                     className="menu-img img-fluid"
@@ -385,7 +385,7 @@ const checkLocation = () => {
             <div className="row gy-5">
             {items.map((item) => (
               <div className="col-lg-4 menu-item">
-                <a href="public/assets/img/menu/menu-item-1.png" className="glightbox">
+                <a href="public/img/menu/menu-item-1.png" className="glightbox">
                   <img
                     src={item.imageUrl}
                     className="menu-img img-fluid"
@@ -419,7 +419,7 @@ const checkLocation = () => {
             <div className="row gy-5">
             {items.map((item) => (
               <div className="col-lg-4 menu-item">
-                <a href="public/assets/img/menu/menu-item-1.png" className="glightbox">
+                <a href="public/img/menu/menu-item-1.png" className="glightbox">
                   <img
                     src={item.imageUrl}
                     className="menu-img img-fluid"
@@ -451,9 +451,9 @@ const checkLocation = () => {
             </div>
             <div className="row gy-5">
               <div className="col-lg-4 menu-item">
-                <a href="public/assets/img/menu/menu-item-1.png" className="glightbox">
+                <a href="public/img/menu/menu-item-1.png" className="glightbox">
                   <img
-                    src="public/assets/img/menu/menu-item-1.png"
+                    src="public/img/menu/menu-item-1.png"
                     className="menu-img img-fluid"
                     alt=""
                   />
@@ -466,9 +466,9 @@ const checkLocation = () => {
               </div>
               {/* Menu Item */}
               <div className="col-lg-4 menu-item">
-                <a href="public/assets/img/menu/menu-item-2.png" className="glightbox">
+                <a href="public/img/menu/menu-item-2.png" className="glightbox">
                   <img
-                    src="public/assets/img/menu/menu-item-2.png"
+                    src="public/img/menu/menu-item-2.png"
                     className="menu-img img-fluid"
                     alt=""
                   />
@@ -481,9 +481,9 @@ const checkLocation = () => {
               </div>
               {/* Menu Item */}
               <div className="col-lg-4 menu-item">
-                <a href="public/assets/img/menu/menu-item-3.png" className="glightbox">
+                <a href="public/img/menu/menu-item-3.png" className="glightbox">
                   <img
-                    src="public/assets/img/menu/menu-item-3.png"
+                    src="public/img/menu/menu-item-3.png"
                     className="menu-img img-fluid"
                     alt=""
                   />
@@ -496,9 +496,9 @@ const checkLocation = () => {
               </div>
               {/* Menu Item */}
               <div className="col-lg-4 menu-item">
-                <a href="public/assets/img/menu/menu-item-4.png" className="glightbox">
+                <a href="public/img/menu/menu-item-4.png" className="glightbox">
                   <img
-                    src="public/assets/img/menu/menu-item-4.png"
+                    src="public/img/menu/menu-item-4.png"
                     className="menu-img img-fluid"
                     alt=""
                   />
@@ -511,9 +511,9 @@ const checkLocation = () => {
               </div>
               {/* Menu Item */}
               <div className="col-lg-4 menu-item">
-                <a href="public/assets/img/menu/menu-item-5.png" className="glightbox">
+                <a href="public/img/menu/menu-item-5.png" className="glightbox">
                   <img
-                    src="public/assets/img/menu/menu-item-5.png"
+                    src="public/img/menu/menu-item-5.png"
                     className="menu-img img-fluid"
                     alt=""
                   />
@@ -526,9 +526,9 @@ const checkLocation = () => {
               </div>
               {/* Menu Item */}
               <div className="col-lg-4 menu-item">
-                <a href="public/assets/img/menu/menu-item-6.png" className="glightbox">
+                <a href="public/img/menu/menu-item-6.png" className="glightbox">
                   <img
-                    src="public/assets/img/menu/menu-item-6.png"
+                    src="public/img/menu/menu-item-6.png"
                     className="menu-img img-fluid"
                     alt=""
                   />
@@ -592,7 +592,7 @@ const checkLocation = () => {
                   </div>
                   <div className="col-lg-2 text-center">
                     <img
-                      src="public/assets/img/testimonials/testimonials-1.jpg"
+                      src="public/img/testimonials/testimonials-1.jpg"
                       className="img-fluid testimonial-img"
                       alt=""
                     />
@@ -627,7 +627,7 @@ const checkLocation = () => {
                   </div>
                   <div className="col-lg-2 text-center">
                     <img
-                      src="public/assets/img/testimonials/testimonials-2.jpg"
+                      src="public/img/testimonials/testimonials-2.jpg"
                       className="img-fluid testimonial-img"
                       alt=""
                     />
@@ -663,7 +663,7 @@ const checkLocation = () => {
                   </div>
                   <div className="col-lg-2 text-center">
                     <img
-                      src="public/assets/img/testimonials/testimonials-3.jpg"
+                      src="public/img/testimonials/testimonials-3.jpg"
                       className="img-fluid testimonial-img"
                       alt=""
                     />
@@ -698,7 +698,7 @@ const checkLocation = () => {
                   </div>
                   <div className="col-lg-2 text-center">
                     <img
-                      src="public/assets/img/testimonials/testimonials-4.jpg"
+                      src="public/img/testimonials/testimonials-4.jpg"
                       className="img-fluid testimonial-img"
                       alt=""
                     />
@@ -730,7 +730,7 @@ const checkLocation = () => {
           <div className="swiper-wrapper">
             <div
               className="swiper-slide event-item d-flex flex-column justify-content-end"
-              style={{ backgroundImage: "url(public/assets/img/events-1.jpg)" }}
+              style={{ backgroundImage: "url(public/img/events-1.jpg)" }}
             >
               <h3>Персонализирани Парти</h3>
               <div className="price align-self-start">$99</div>
@@ -741,7 +741,7 @@ const checkLocation = () => {
             {/* Край на Събитие */}
             <div
               className="swiper-slide event-item d-flex flex-column justify-content-end"
-              style={{ backgroundImage: "url(public/assets/img/events-2.jpg)" }}
+              style={{ backgroundImage: "url(public/img/events-2.jpg)" }}
             >
               <h3>Частни Парти</h3>
               <div className="price align-self-start">$289</div>
@@ -754,7 +754,7 @@ const checkLocation = () => {
             {/* Край на Събитие */}
             <div
               className="swiper-slide event-item d-flex flex-column justify-content-end"
-              style={{ backgroundImage: "url(public/assets/img/events-3.jpg)" }}
+              style={{ backgroundImage: "url(public/img/events-3.jpg)" }}
             >
               <h3>Рожденни Парти</h3>
               <div className="price align-self-start">$499</div>
@@ -790,7 +790,7 @@ const checkLocation = () => {
             <div className="chef-member">
               <div className="member-img">
                 <img
-                  src="public/assets/img/chefs/chefs-1.jpg"
+                  src="public/img/chefs/chefs-1.jpg"
                   className="img-fluid"
                   alt=""
                 />
@@ -827,7 +827,7 @@ const checkLocation = () => {
             <div className="chef-member">
               <div className="member-img">
                 <img
-                  src="public/assets/img/chefs/chefs-2.jpg"
+                  src="public/img/chefs/chefs-2.jpg"
                   className="img-fluid"
                   alt=""
                 />
@@ -864,7 +864,7 @@ const checkLocation = () => {
             <div className="chef-member">
               <div className="member-img">
                 <img
-                  src="public/assets/img/chefs/chefs-3.jpg"
+                  src="public/img/chefs/chefs-3.jpg"
                   className="img-fluid"
                   alt=""
                 />
@@ -910,7 +910,7 @@ const checkLocation = () => {
         <div className="row g-0">
           <div
             className="col-lg-4 reservation-img"
-            style={{ backgroundImage: "url(public/assets/img/reservation.jpg)" }}
+            style={{ backgroundImage: "url(public/img/reservation.jpg)" }}
             data-aos="zoom-out"
             data-aos-delay={200}
           />
@@ -1040,7 +1040,7 @@ const checkLocation = () => {
               <a
                 className="glightbox"
                 data-gallery="images-gallery"
-                href="public/assets/img/gallery/gallery-1.jpg"
+                href="public/img/gallery/gallery-1.jpg"
               >
                 <img
                   src="assets/img/gallery/gallery-1.jpg"
