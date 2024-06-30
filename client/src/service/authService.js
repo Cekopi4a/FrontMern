@@ -1,6 +1,6 @@
 import * as request from '../request/request';
 
-const baseUrl = 'http://localhost:5050/api/auth';
+const baseUrl = 'https://mern-stack-3-tuiz.onrender.com/api/auth';
 
 {/*export const login = async (email, password) => {
     const result = await request.post(`${baseUrl}/login`, {

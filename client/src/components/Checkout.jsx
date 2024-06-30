@@ -67,7 +67,7 @@ const Checkout = () => {
   };
     
 console.log(orderData);
-    const response = await fetch('http://localhost:5050/api/order/addOrder', {
+    const response = await fetch('https://mern-stack-3-tuiz.onrender.com/api/order/addOrder', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
